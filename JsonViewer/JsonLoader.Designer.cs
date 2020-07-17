@@ -87,6 +87,7 @@
             this.Controls.Add(this.LoaderButton);
             this.Name = "JsonLoader";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.JsonLoader_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

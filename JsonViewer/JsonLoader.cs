@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+﻿using JsonViewer.Properties;
+using System;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace JsonViewer
@@ -20,7 +14,7 @@ namespace JsonViewer
 
         private void FilePathDialogButton_Click(object sender, EventArgs e)
         {
-            if (FilePathDialog.ShowDialog() == DialogResult.OK)
+            if(FilePathDialog.ShowDialog() == DialogResult.OK)
             {
                 FilePathTextBox.Text = FilePathDialog.FileName;
             }
@@ -29,21 +23,29 @@ namespace JsonViewer
         private void LodaerButton_Click(object sender, EventArgs e)
         {
             string filePath = FilePathTextBox.Text;
-            if (File.Exists(filePath))
+            if(File.Exists(filePath))
             {
                 JsonView f = new JsonView(filePath);
-                if (f.loadedSuccessfully)
+                if(f.loadedSuccessfully)
                 {
                     f.Show();
                 }
                 else
                 {
-                    MessageBox.Show("There was an error while loading json file.\n"+f.exception.Message);
+                    MessageBox.Show(Resources.ERROR_WHILE_LOADING + f.exception.Message);
                 }
             }
             else
             {
-                MessageBox.Show("File path is not valid");
+                MessageBox.Show(Resources.PATH_NOT_VALID);
+            }
+        }
+
+        private void JsonLoader_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(MessageBox.Show(Resources.CLOSING_QUESTION, Resources.CLOSING_TITLE, MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                e.Cancel = true;
             }
         }
     }
