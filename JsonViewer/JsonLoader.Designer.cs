@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JsonLoader));
             this.LoaderButton = new System.Windows.Forms.Button();
             this.FilePathTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -85,6 +86,7 @@
             this.Controls.Add(this.FilePathTextBox);
             this.Controls.Add(this.FilePathDialogButton);
             this.Controls.Add(this.LoaderButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "JsonLoader";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.JsonLoader_FormClosing);
