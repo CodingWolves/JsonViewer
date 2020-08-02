@@ -79,7 +79,7 @@
             // FilePathDialog
             // 
             this.FilePathDialog.FileName = "*.json";
-            this.FilePathDialog.Filter = "Json Files|*.json";
+            this.FilePathDialog.Filter = "Json Files|*.json;|Text Files|*.txt;";
             // 
             // JsonLoader
             // 
