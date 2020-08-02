@@ -39,7 +39,7 @@ namespace JsonViewer
 
         public static TreeNodeCollection JsonRedirect(object obj)
         {
-            if(obj is string || obj is Int64 || obj is bool)
+            if (obj is string || obj is Int64 || obj is bool || obj is Double)
             {
                 return TreeNodeString(obj.ToString());
             }
