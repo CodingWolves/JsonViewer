@@ -1,0 +1,594 @@
+{"0":{
+  "HardwareType": 2,
+  "HasModelSpecificRegisters": true,
+  "HasTimeStampCounter": true,
+  "TimeStampCounterFrequency": 1800.0039031607009,
+  "SubHardware": [],
+  "Parent": null,
+  "Sensors": [
+    {
+      "SensorType": 3,
+      "Identifier": {},
+      "Name": "CPU Core #1",
+      "Index": 1,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 50.0,
+      "Min": 50.0,
+      "Max": 60.0000038,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 3,
+      "Identifier": {},
+      "Name": "CPU Core #2",
+      "Index": 2,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 66.6666641,
+      "Min": 29.9999962,
+      "Max": 66.6666641,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 3,
+      "Identifier": {},
+      "Name": "CPU Core #3",
+      "Index": 3,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 50.0,
+      "Min": 19.9999981,
+      "Max": 57.2580643,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 3,
+      "Identifier": {},
+      "Name": "CPU Core #4",
+      "Index": 4,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 83.33333,
+      "Min": 30.0000019,
+      "Max": 83.33333,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 3,
+      "Identifier": {},
+      "Name": "CPU Total",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 62.5,
+      "Min": 35.0000038,
+      "Max": 62.5,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 2,
+      "Identifier": {},
+      "Name": "CPU Core #1",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [
+        {
+          "Identifier": {},
+          "Name": "TjMax [°C]",
+          "Description": "TjMax temperature of the core sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 100.0,
+          "DefaultValue": 100.0,
+          "IsDefault": true
+        },
+        {
+          "Identifier": {},
+          "Name": "TSlope [°C]",
+          "Description": "Temperature slope of the digital thermal sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 1.0,
+          "DefaultValue": 1.0,
+          "IsDefault": true
+        }
+      ],
+      "Value": 64.0,
+      "Min": 63.0,
+      "Max": 64.0,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 2,
+      "Identifier": {},
+      "Name": "CPU Core #2",
+      "Index": 1,
+      "IsDefaultHidden": false,
+      "Parameters": [
+        {
+          "Identifier": {},
+          "Name": "TjMax [°C]",
+          "Description": "TjMax temperature of the core sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 100.0,
+          "DefaultValue": 100.0,
+          "IsDefault": true
+        },
+        {
+          "Identifier": {},
+          "Name": "TSlope [°C]",
+          "Description": "Temperature slope of the digital thermal sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 1.0,
+          "DefaultValue": 1.0,
+          "IsDefault": true
+        }
+      ],
+      "Value": 63.0,
+      "Min": 59.0,
+      "Max": 64.0,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 2,
+      "Identifier": {},
+      "Name": "CPU Core #3",
+      "Index": 2,
+      "IsDefaultHidden": false,
+      "Parameters": [
+        {
+          "Identifier": {},
+          "Name": "TjMax [°C]",
+          "Description": "TjMax temperature of the core sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 100.0,
+          "DefaultValue": 100.0,
+          "IsDefault": true
+        },
+        {
+          "Identifier": {},
+          "Name": "TSlope [°C]",
+          "Description": "Temperature slope of the digital thermal sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 1.0,
+          "DefaultValue": 1.0,
+          "IsDefault": true
+        }
+      ],
+      "Value": 62.0,
+      "Min": 58.0,
+      "Max": 62.0,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 2,
+      "Identifier": {},
+      "Name": "CPU Core #4",
+      "Index": 3,
+      "IsDefaultHidden": false,
+      "Parameters": [
+        {
+          "Identifier": {},
+          "Name": "TjMax [°C]",
+          "Description": "TjMax temperature of the core sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 100.0,
+          "DefaultValue": 100.0,
+          "IsDefault": true
+        },
+        {
+          "Identifier": {},
+          "Name": "TSlope [°C]",
+          "Description": "Temperature slope of the digital thermal sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 1.0,
+          "DefaultValue": 1.0,
+          "IsDefault": true
+        }
+      ],
+      "Value": 62.0,
+      "Min": 59.0,
+      "Max": 62.0,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 2,
+      "Identifier": {},
+      "Name": "CPU Package",
+      "Index": 4,
+      "IsDefaultHidden": false,
+      "Parameters": [
+        {
+          "Identifier": {},
+          "Name": "TjMax [°C]",
+          "Description": "TjMax temperature of the package sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 100.0,
+          "DefaultValue": 100.0,
+          "IsDefault": true
+        },
+        {
+          "Identifier": {},
+          "Name": "TSlope [°C]",
+          "Description": "Temperature slope of the digital thermal sensor.\nTemperature = TjMax - TSlope * Value.",
+          "Value": 1.0,
+          "DefaultValue": 1.0,
+          "IsDefault": true
+        }
+      ],
+      "Value": 64.0,
+      "Min": 64.0,
+      "Max": 64.0,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 1,
+      "Identifier": {},
+      "Name": "CPU Core #1",
+      "Index": 1,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 2700.00586,
+      "Min": 2700.00586,
+      "Max": 2700.161,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 1,
+      "Identifier": {},
+      "Name": "CPU Core #2",
+      "Index": 2,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 2700.00586,
+      "Min": 2700.00586,
+      "Max": 2700.161,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 1,
+      "Identifier": {},
+      "Name": "CPU Core #3",
+      "Index": 3,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 2700.00586,
+      "Min": 2700.00586,
+      "Max": 2700.161,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 1,
+      "Identifier": {},
+      "Name": "CPU Core #4",
+      "Index": 4,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 2700.00586,
+      "Min": 2700.00586,
+      "Max": 2700.161,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 9,
+      "Identifier": {},
+      "Name": "CPU Package",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 17.9435024,
+      "Min": 12.711832,
+      "Max": 17.9435024,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 9,
+      "Identifier": {},
+      "Name": "CPU Cores",
+      "Index": 1,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 14.30746,
+      "Min": 10.7788534,
+      "Max": 14.30746,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 9,
+      "Identifier": {},
+      "Name": "CPU Graphics",
+      "Index": 2,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 0.6639327,
+      "Min": 0.03442501,
+      "Max": 0.6639327,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 9,
+      "Identifier": {},
+      "Name": "CPU DRAM",
+      "Index": 3,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 1.42832124,
+      "Min": 0.925650239,
+      "Max": 1.42832124,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 1,
+      "Identifier": {},
+      "Name": "Bus Speed",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 100.000214,
+      "Min": 100.000214,
+      "Max": 100.005959,
+      "Values": [],
+      "Control": null
+    }
+  ],
+  "Name": "Intel Core i5-8250U",
+  "Identifier": {}
+},"1":{
+  "BusNumber": 1,
+  "DeviceNumber": 0,
+  "HardwareType": 5,
+  "SubHardware": [],
+  "Parent": null,
+  "Sensors": [
+    {
+      "SensorType": 2,
+      "Identifier": {},
+      "Name": "GPU Core",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 56.0000038,
+      "Min": 56.0000038,
+      "Max": 56.0000038,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 1,
+      "Identifier": {},
+      "Name": "GPU Core",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 984.0,
+      "Min": 940.0,
+      "Max": 1024.0,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 1,
+      "Identifier": {},
+      "Name": "GPU Memory",
+      "Index": 1,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 150.0,
+      "Min": 150.0,
+      "Max": 150.0,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 3,
+      "Identifier": {},
+      "Name": "GPU Core",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 0.0,
+      "Min": 0.0,
+      "Max": 0.0,
+      "Values": [],
+      "Control": null
+    }
+  ],
+  "Name": "Radeon 530",
+  "Identifier": {}
+},"2":{
+  "HardwareType": 3,
+  "SubHardware": [],
+  "Parent": null,
+  "Sensors": [
+    {
+      "SensorType": 3,
+      "Identifier": {},
+      "Name": "Memory",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 79.2392044,
+      "Min": 79.19792,
+      "Max": 79.2392044,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 10,
+      "Identifier": {},
+      "Name": "Used Memory",
+      "Index": 0,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 6.25999832,
+      "Min": 6.25673676,
+      "Max": 6.25999832,
+      "Values": [],
+      "Control": null
+    },
+    {
+      "SensorType": 10,
+      "Identifier": {},
+      "Name": "Available Memory",
+      "Index": 1,
+      "IsDefaultHidden": false,
+      "Parameters": [],
+      "Value": 1.64012909,
+      "Min": 1.64012909,
+      "Max": 1.64339066,
+      "Values": [],
+      "Control": null
+    }
+  ],
+  "Name": "Generic Memory",
+  "Identifier": {}
+},"3":{
+  "Temperature": {
+    "Hardware": {
+      "HardwareType": 8,
+      "SubHardware": [],
+      "Parent": null,
+      "Sensors": [
+        {
+          "SensorType": 3,
+          "Identifier": {},
+          "Name": "Used Space",
+          "Index": 0,
+          "IsDefaultHidden": false,
+          "Parameters": [],
+          "Value": 78.06482,
+          "Min": 78.06482,
+          "Max": 78.06482,
+          "Values": [],
+          "Control": null
+        }
+      ],
+      "Name": "SK hynix SC311 SATA 256GB",
+      "Identifier": {}
+    },
+    "SensorType": 2,
+    "Identifier": {},
+    "Name": "Temperature",
+    "Index": 0,
+    "IsDefaultHidden": false,
+    "Parameters": [
+      {
+        "Identifier": {},
+        "Name": "Offset [°C]",
+        "Description": "Temperature offset of the thermal sensor.\nTemperature = Value + Offset.",
+        "Value": 0.0,
+        "DefaultValue": 0.0,
+        "IsDefault": true
+      }
+    ],
+    "Value": 34.0,
+    "Min": 34.0,
+    "Max": 34.0,
+    "Values": [],
+    "Control": null
+  },
+  "UsedSpacePercentage": {
+    "Hardware": {
+      "HardwareType": 8,
+      "SubHardware": [],
+      "Parent": null,
+      "Sensors": [
+        {
+          "SensorType": 2,
+          "Identifier": {},
+          "Name": "Temperature",
+          "Index": 0,
+          "IsDefaultHidden": false,
+          "Parameters": [
+            {
+              "Identifier": {},
+              "Name": "Offset [°C]",
+              "Description": "Temperature offset of the thermal sensor.\nTemperature = Value + Offset.",
+              "Value": 0.0,
+              "DefaultValue": 0.0,
+              "IsDefault": true
+            }
+          ],
+          "Value": 34.0,
+          "Min": 34.0,
+          "Max": 34.0,
+          "Values": [],
+          "Control": null
+        }
+      ],
+      "Name": "SK hynix SC311 SATA 256GB",
+      "Identifier": {}
+    },
+    "SensorType": 3,
+    "Identifier": {},
+    "Name": "Used Space",
+    "Index": 0,
+    "IsDefaultHidden": false,
+    "Parameters": [],
+    "Value": 78.06482,
+    "Min": 78.06482,
+    "Max": 78.06482,
+    "Values": [],
+    "Control": null
+  },
+  "HardwareType": 4,
+  "hardware": {
+    "HardwareType": 8,
+    "SubHardware": [],
+    "Parent": null,
+    "Sensors": [
+      {
+        "SensorType": 2,
+        "Identifier": {},
+        "Name": "Temperature",
+        "Index": 0,
+        "IsDefaultHidden": false,
+        "Parameters": [
+          {
+            "Identifier": {},
+            "Name": "Offset [°C]",
+            "Description": "Temperature offset of the thermal sensor.\nTemperature = Value + Offset.",
+            "Value": 0.0,
+            "DefaultValue": 0.0,
+            "IsDefault": true
+          }
+        ],
+        "Value": 34.0,
+        "Min": 34.0,
+        "Max": 34.0,
+        "Values": [],
+        "Control": null
+      },
+      {
+        "SensorType": 3,
+        "Identifier": {},
+        "Name": "Used Space",
+        "Index": 0,
+        "IsDefaultHidden": false,
+        "Parameters": [],
+        "Value": 78.06482,
+        "Min": 78.06482,
+        "Max": 78.06482,
+        "Values": [],
+        "Control": null
+      }
+    ],
+    "Name": "SK hynix SC311 SATA 256GB",
+    "Identifier": {}
+  }
+},"4":{
+  "Name": "Dell 0N7Y27",
+  "Identifier": {},
+  "HardwareType": 0,
+  "Parent": null,
+  "SubHardware": [],
+  "Sensors": []
+}}
