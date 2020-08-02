@@ -43,6 +43,10 @@ namespace JsonViewer
             {
                 return TreeNodeString(obj.ToString());
             }
+            else if(obj is null)
+            {
+                return TreeNodeString("");
+            }
             else if(obj is JValue)
             {
                 return JsonRedirect(((JValue)obj).Value);
