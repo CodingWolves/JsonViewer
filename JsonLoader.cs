@@ -1,4 +1,5 @@
-﻿using JsonViewer.Properties;
+﻿using AppTools;
+using JsonViewer.Properties;
 using System;
 using System.IO;
 using System.Windows.Forms;
@@ -28,7 +29,7 @@ namespace JsonViewer
                 JsonView f = new JsonView(filePath);
                 if(f.loadedSuccessfully)
                 {
-                    f.Show();
+                    ApplicationQueue.InstanceAddFormQueue(f);
                 }
                 else
                 {
@@ -38,14 +39,6 @@ namespace JsonViewer
             else
             {
                 MessageBox.Show(Resources.PATH_NOT_VALID);
-            }
-        }
-
-        private void JsonLoader_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if(MessageBox.Show(Resources.CLOSING_QUESTION, Resources.CLOSING_TITLE, MessageBoxButtons.YesNo) == DialogResult.No)
-            {
-                e.Cancel = true;
             }
         }
     }

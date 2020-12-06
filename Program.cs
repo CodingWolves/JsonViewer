@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppTools;
+using System;
 using System.Windows.Forms;
 
 namespace JsonViewer
@@ -13,7 +14,8 @@ namespace JsonViewer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JsonLoader());
+            ApplicationQueue.InstanceAddFormQueue(new JsonLoader());
+            ApplicationQueue.RunApplicationQueue();
         }
     }
 }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30309.148
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonViewer", "JsonViewer\JsonViewer.csproj", "{2AB40003-CABD-4364-8690-3FE61B381A4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonViewer", "JsonViewer.csproj", "{2AB40003-CABD-4364-8690-3FE61B381A4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {27A7DC92-4A3A-42E9-9614-CBE94190A8BB}
+		SolutionGuid = {84C4AEFF-AF27-4921-A093-82B4D06ED0E4}
 	EndGlobalSection
 EndGlobal
